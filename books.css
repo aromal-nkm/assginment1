@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow:auto;
+    
+}
+
+
+
+.logo{
+    height: 30px;
+    width: auto;
+    padding-right: 2px;
+
+}
+
+#parent{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0,0, .8);
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-around;
+  
+}
+
+
+#parent .container{
+    border: 2px solid rgba(255, 255,255, .8);
+    height:fit-content;
+    width: fit-content;
+    background-color: rgba(0, 0,0, .7);
+    border-radius: 25px;
+    color: azure;
+}
+
+.img-container {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container h4{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 2px;
+    color:honeydew;
+  }
+
+  
